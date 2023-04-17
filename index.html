@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio of Nahid Raihan</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body class="body-area">
+    
+    <header class="header-cover">
+      <img id="mobile-menu" class="menu-button" src="media/Hamberger_menu_icon.svg" alt="menu bar">
+    </header>
+    <nav id="nav-menu" class="nav-bar">
+      <ul id = "navUlBar" class="nav-bar-ul">
+        <a href="#portfolio"><li id="portfolio-li">Portoflio</li></a>
+        <a href="#about"><li id="about-li">About</li></a>
+        <a href="#contact"><li id="contact-li">Contact</li></a>
+      </ul>
+    </nav>
+    <main class="main-container">
+      <div class="main-text">
+        <div class="main-text-blue">
+          <h1>Hey there. I’m Nahid.</h1>
+        </div>
+        <div class="main-text-green">
+          <h2>I’m a software developer</h2>
+        </div>
+        <div class="intro-text">
+          <p> I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, 
+          don’t hesitate to contact me.</p>
+        </div>
+
+        <ul class="social-media">
+         
+          <li><a><img src="media/github.svg" alt="github link"></a></li>
+          <li><a></a><img src="media/Linkedin icon.svg" alt="linkedin link"></a></li>
+          <li><a><img src="media/angellist.svg" alt="angellint link"></a></li>
+          <li><a><img src="media/twitter.svg" alt="twiter lonk"></a></li>
+          <li><a><img src="media/medium.svg" alt="medium link"></a></li>
+         
+         
+        </ul>
+        <div class="disable-img">
+          <a class="disable-button"><img src="media/Disabled.svg" alt="Hide and open button"></a>
+        </div>
+ 
+      </div>
+      <section id="WorkContainerID"class="work-container">
+        <div class="my-work-text">
+          <div id="portfolio" class="my-work-text-heading">
+            <h2>My Recent Works</h2>
+          </div>
+          <div class="hr-line">
+            <hr>
+          </div>
+        </div>
+      </section>
+      <section id="about" class="about-me">
+        <div class="about-me-text">
+          <h2>About me</h2>
+          <div class="about-p">
+            <p> I can help you build a product , feature or website Look through some of
+             my work and experience! If you like what you see and have a project you need coded, 
+            don’t hesitate to contact me.
+            </p>
+          </div>
+          <div class="btn-div">
+            <button type="submit" class="btn-all">Get my resume</button>
+          </div>
+        </div>
+        <div class="about-skills">
+          <div class="languages">
+            <div class="lang-img">
+              <img src="media/language_Icons.svg" alt="Language Thumbnail">
+            </div>
+            <div class="lang-text">
+              <h2>Languages</h2>
+            </div>
+            <div class="lang-list">
+              <ul>
+                <li>JavaScript</li>
+                <li>Ruby</li>
+                <li>HTML</li>
+                <li>CSS</li>
+              </ul>
+            </div>
+          </div>
+          <div class="frameworks">
+            <div class="fwor-img">
+              <img src="media/framework_Icons.svg" alt="Framework Thumbnail">
+            </div>
+            <div class="fwor-text">
+              <h2>Frameworks</h2>
+            </div>
+            <div class="fwor-list">
+              <ul>
+                <li>React.js</li>
+                <li>Ruby on Rails</li>
+                <li>RSpec</li>
+                <li>Capybara</li>
+                <li>Selenium</li>
+              </ul>
+            </div>
+          </div>
+          <div class="skills">
+            <div class="skills-img">
+              <img src="media/skills_Icons.svg" alt="Skills Thumbnail">
+            </div>
+            <div class="skills-text">
+              <h2>Skills</h2>
+            </div>
+            <div class="skills-list">
+              <ul>
+                <li>Database Management</li>
+                <li>Version Control</li>
+                <li>CLI</li>
+                <li>Web Development</li>
+                <li>API Design</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="contact" class="contact-info">
+        <div class="paragraph">
+          <p>I'm always interested in hearing about new projects, so if you'd l
+             ike to chat please get in touch.
+          </p>
+        </div>
+        <div class="input-elements">
+          <form id="contact-form" action="https://formspree.io/f/meqwrjvl" method="post">
+            <label for="fname">Full Name</label>
+            <input type="text" class="full-name" id="fname" name="fname" placeholder="Full Name" maxlength="30" required><br>
+            <label for="email">E-mail Adress</label>
+            <input type="email" id="email" name="_replyto" placeholder="Enter email" required><br>
+            <label for="Opinion">Message Box</label>
+            <textarea name="message" id="Opinion" maxlength="500" placeholder="Write me something..." required></textarea>
+            <div class="btn-submitContainer">
+              <button class="btn-all form-submit-btn" type="submit" id="submit" name="submit" value="submit">Get In Touch</button>
+              <div id="error-div"></div>
+            </div>
+            
+          </form>
+        </div>
+      </section>
+      
+    </main>
+    <footer class="foot-design">
+      <div class="email">
+        <a href="#"><p>nahid.raihan@gmail.com</p></a>
+      </div>
+      <div>
+          <ul class="socialmedia2">
+              <li>
+                  <a href="https://github.com/Nahid1911"><img src="media/github.svg" alt="social media github"></a>
+              </li>
+              <li>
+                  <a href="https://www.linkedin.com/in/nahidraihan/"><img src="media/Linkedin icon.svg" alt="social media linkedin"></a>
+              </li>
+              <li><a href="#"><img src="media/angellist.svg" alt="social media angelist"></a></li>
+              <li><a href="https://twitter.com/Nahid1911"><img src="media/twitter.svg" alt="social media twitter"></a></li>
+              <li><a href="#"><img src="media/medium.svg" alt="social media mediam"></a></li>
+          </ul>
+      </div>
+      <div class="footer-bottomLine">
+        <img src="media/Light.svg" alt="" class="src">
+      </div>
+    </footer>
+    <script src="script.js">
+
+    </script>
+
+  </body>
+</html>
