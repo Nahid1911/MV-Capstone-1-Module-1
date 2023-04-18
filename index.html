@@ -4,173 +4,207 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio of Nahid Raihan</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="styleSheet" href="style.css">
+    <title>Porabo.live</title>
   </head>
-  <body class="body-area">
-    
-    <header class="header-cover">
-      <img id="mobile-menu" class="menu-button" src="media/Hamberger_menu_icon.svg" alt="menu bar">
-    </header>
-    <nav id="nav-menu" class="nav-bar">
-      <ul id = "navUlBar" class="nav-bar-ul">
-        <a href="#portfolio"><li id="portfolio-li">Portoflio</li></a>
-        <a href="#about"><li id="about-li">About</li></a>
-        <a href="#contact"><li id="contact-li">Contact</li></a>
-      </ul>
-    </nav>
-    <main class="main-container">
-      <div class="main-text">
-        <div class="main-text-blue">
-          <h1>Hey there. I’m Nahid.</h1>
-        </div>
-        <div class="main-text-green">
-          <h2>I’m a software developer</h2>
-        </div>
-        <div class="intro-text">
-          <p> I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, 
-          don’t hesitate to contact me.</p>
-        </div>
-
-        <ul class="social-media">
-         
-          <li><a><img src="media/github.svg" alt="github link"></a></li>
-          <li><a></a><img src="media/Linkedin icon.svg" alt="linkedin link"></a></li>
-          <li><a><img src="media/angellist.svg" alt="angellint link"></a></li>
-          <li><a><img src="media/twitter.svg" alt="twiter lonk"></a></li>
-          <li><a><img src="media/medium.svg" alt="medium link"></a></li>
-         
-         
-        </ul>
-        <div class="disable-img">
-          <a class="disable-button"><img src="media/Disabled.svg" alt="Hide and open button"></a>
-        </div>
- 
-      </div>
-      <section id="WorkContainerID"class="work-container">
-        <div class="my-work-text">
-          <div id="portfolio" class="my-work-text-heading">
-            <h2>My Recent Works</h2>
-          </div>
-          <div class="hr-line">
-            <hr>
-          </div>
-        </div>
-      </section>
-      <section id="about" class="about-me">
-        <div class="about-me-text">
-          <h2>About me</h2>
-          <div class="about-p">
-            <p> I can help you build a product , feature or website Look through some of
-             my work and experience! If you like what you see and have a project you need coded, 
-            don’t hesitate to contact me.
-            </p>
-          </div>
-          <div class="btn-div">
-            <button type="submit" class="btn-all">Get my resume</button>
-          </div>
-        </div>
-        <div class="about-skills">
-          <div class="languages">
-            <div class="lang-img">
-              <img src="media/language_Icons.svg" alt="Language Thumbnail">
-            </div>
-            <div class="lang-text">
-              <h2>Languages</h2>
-            </div>
-            <div class="lang-list">
-              <ul>
-                <li>JavaScript</li>
-                <li>Ruby</li>
-                <li>HTML</li>
-                <li>CSS</li>
-              </ul>
-            </div>
-          </div>
-          <div class="frameworks">
-            <div class="fwor-img">
-              <img src="media/framework_Icons.svg" alt="Framework Thumbnail">
-            </div>
-            <div class="fwor-text">
-              <h2>Frameworks</h2>
-            </div>
-            <div class="fwor-list">
-              <ul>
-                <li>React.js</li>
-                <li>Ruby on Rails</li>
-                <li>RSpec</li>
-                <li>Capybara</li>
-                <li>Selenium</li>
-              </ul>
-            </div>
-          </div>
-          <div class="skills">
-            <div class="skills-img">
-              <img src="media/skills_Icons.svg" alt="Skills Thumbnail">
-            </div>
-            <div class="skills-text">
-              <h2>Skills</h2>
-            </div>
-            <div class="skills-list">
-              <ul>
-                <li>Database Management</li>
-                <li>Version Control</li>
-                <li>CLI</li>
-                <li>Web Development</li>
-                <li>API Design</li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </section>
-      <section id="contact" class="contact-info">
-        <div class="paragraph">
-          <p>I'm always interested in hearing about new projects, so if you'd l
-             ike to chat please get in touch.
-          </p>
-        </div>
-        <div class="input-elements">
-          <form id="contact-form" action="https://formspree.io/f/meqwrjvl" method="post">
-            <label for="fname">Full Name</label>
-            <input type="text" class="full-name" id="fname" name="fname" placeholder="Full Name" maxlength="30" required><br>
-            <label for="email">E-mail Adress</label>
-            <input type="email" id="email" name="_replyto" placeholder="Enter email" required><br>
-            <label for="Opinion">Message Box</label>
-            <textarea name="message" id="Opinion" maxlength="500" placeholder="Write me something..." required></textarea>
-            <div class="btn-submitContainer">
-              <button class="btn-all form-submit-btn" type="submit" id="submit" name="submit" value="submit">Get In Touch</button>
-              <div id="error-div"></div>
-            </div>
-            
-          </form>
-        </div>
-      </section>
+  <body>
+    <header class="header">
       
-    </main>
-    <footer class="foot-design">
-      <div class="email">
-        <a href="#"><p>nahid.raihan@gmail.com</p></a>
+      <div class="socialMediaDiv flex">
+        <ul class="socialMediaUl flex">
+          <li><img src="assets/facebook_desktop_socialmedia-2.jpg"></li>
+          <li><img src="assets/twitter_desktop_socialmedia-2.jpg"></li>
+          <li>English</li>
+          <li>My Page</li>
+          <li>Logout</li>
+        </ul>
       </div>
-      <div>
-          <ul class="socialmedia2">
-              <li>
-                  <a href="https://github.com/Nahid1911"><img src="media/github.svg" alt="social media github"></a>
-              </li>
-              <li>
-                  <a href="https://www.linkedin.com/in/nahidraihan/"><img src="media/Linkedin icon.svg" alt="social media linkedin"></a>
-              </li>
-              <li><a href="#"><img src="media/angellist.svg" alt="social media angelist"></a></li>
-              <li><a href="https://twitter.com/Nahid1911"><img src="media/twitter.svg" alt="social media twitter"></a></li>
-              <li><a href="#"><img src="media/medium.svg" alt="social media mediam"></a></li>
+      <nav class="navBar flex">
+        <div class="logo">
+          <img src="/assets/logo_Porabo_live.jpg" alt="logo" class="src">
+        </div>
+        <div class="">
+          <ul class="navBarUl flex">
+            <li class="liAbout">About</li>
+            <li>Program</li>
+            <li>Join</li>
+            <li>Sponsor</li>
+            <li>News</li>
+            <li class="liCC_Campaign">CC Campaign</li>
           </ul>
+        </div>
+      </nav>
+    </header>
+    <main id="mainContainer" class="mainContainer flex">
+      <div id="hambargerIcon"class="hambargerIcon">
+        <img src="assets/Hambarger_mobile.svg">
       </div>
-      <div class="footer-bottomLine">
-        <img src="media/Light.svg" alt="" class="src">
+      <div class="mainHeadingAndP">
+        <div class="mainContainerh3">
+          <h3 class="helloText">"Hello! Sharing world"</h3>
+        </div>
+        <div class="mainContainerh1">
+          <h1 class="mainHeading">Creative Common Global Summit 2015</h1>
+        </div>
+        <div class="mainContainerP">
+          <p class="paraGraph">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Suscipit inventore in sunt nemo dicta. Eveniet eum reprehenderit ipsa id quisquam dicta quis! Voluptatum aliquam quas repellat, vel atque hic temporibus?</p>
+        </div>
+        
+        <div class="dateAndTime">
+          <h2>2015.10.15(THU) ~ 16(FRI)</h2>
+        </div>
+        <div class="location">
+          <p>@ National Museum of Korea, Art Center Nabi and More</p>
+        </div>
+       
+      </div>
+    </main>
+    <section class="mainProgram flex">
+      <p>Main Program</p>
+      <hr>
+      <div class="cardsHolder flex">
+        <div class="card flex">
+          <div class="MainProImage">
+            <img src="assets/lecture_.svg" alt="lecture">
+          </div>
+          <h4 class="lecture">Lecture</h4>
+          <p>Listen to the speakers from various countries about the messages of sharing and opening.</p>
+        </div>
+        <div class="card flex">
+          <div class="MainProImage">
+            <img src="assets/Exivision.svg" alt="CC Exhibition">
+          </div>
+          <h4 class="lecture">CC Exhibition</h4>
+          <p>Appreciate various creations applying CC license of artists, organized from Art Center Nabi.</p>
+        </div>
+        <div class="card flex">
+          <div class="MainProImage">
+            <img src="assets/forum_.svg" alt="Forum">
+          </div>
+          <h4 class="lecture">Forum</h4>
+          <p>Have the time to share your thoughts and opinions with experts for each topic.</p>
+        </div>
+        <div class="card flex">
+          <div class="MainProImage">
+            <img src="assets/Workshop_.svg" alt="Workshop">
+          </div>
+          <h4 class="lecture">Workshop</h4>
+          <p>Try creating your own work using open source license rather than just watching at it.</p>
+        </div>
+        <div class="card flex">
+          <div class="MainProImage">
+            <img src="assets/Ignite.svg" alt="CC Ignite">
+          </div>
+          <h4 class="lecture">CC Ignite</h4>
+          <p>Get opportunities to network with CC affiliates around the world, also after the summit.</p>
+        </div>
+      </div>
+      <div class="seeHoleProgram">
+        <p>See the whole program</p>
+      </div>
+    </section>
+    <section class="featuredSpeakers flex">
+      <div class="featureSpeakerh3">
+        <h3>Featured Speakers</h3>
+        <hr>
+      </div>
+      <div class="allSpeaker flex">
+        <div class="speaker flex">
+          <div class="profileImgDiv">
+            <img src="assets/profilepic.jpg" alt="speakerImage">
+          </div>
+          <div class="otherProElement">
+            <h3 class="name">Speaker-1</h3>
+            <p class="currentPosition">Designation</p>
+            <hr>
+            <p class="bio">Past Experiance and Achivements</p>
+          </div>
+        </div>
+        <div class="speaker flex">
+          <div class="profileImgDiv">
+            <img src="assets/profilepic.jpg" alt="speakerImage">
+          </div>
+          <div class="otherProElement">
+            <h3 class="name">Speaker-2</h3>
+            <p class="currentPosition">Designation</p>
+            <hr>
+            <p class="bio">Past Experiance and Achivements</p>
+          </div>
+        </div>
+        <div class="speaker flex">
+          <div class="profileImgDiv">
+            <img src="assets/profilepic.jpg" alt="speakerImage">
+          </div>
+          <div class="otherProElement">
+            <h3 class="name">Speaker-3</h3>
+            <p class="currentPosition">Designation</p>
+            <hr>
+            <p class="bio">Past Experiance and Achivements</p>
+          </div>
+        </div>
+        <div class="speaker flex">
+          <div class="profileImgDiv">
+            <img src="assets/profilepic.jpg" alt="speakerImage">
+          </div>
+          <div class="otherProElement">
+            <h3 class="name">Speaker-4</h3>
+            <p class="currentPosition">Designation</p>
+            <hr>
+            <p class="bio">Past Experiance and Achivements</p>
+          </div>
+        </div>
+        <div class="speaker flex">
+          <div class="profileImgDiv">
+            <img src="assets/profilepic.jpg" alt="speakerImage">
+          </div>
+          <div class="otherProElement">
+            <h3 class="name">Speaker-5</h3>
+            <p class="currentPosition">Designation</p>
+            <hr>
+            <p class="bio">Past Experiance and Achivements</p>
+          </div>
+        </div>
+        <div class="speaker flex">
+          <div class="profileImgDiv">
+            <img src="assets/profilepic.jpg" alt="speakerImage">
+          </div>
+          <div class="otherProElement">
+            <h3 class="name">Speaker-6</h3>
+            <p class="currentPosition">Designation</p>
+            <hr>
+            <p class="bio">Past Experiance and Achivements</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="paartners">
+      <div class="textAndHr flex">
+        <h3 class="partnerText">Partners</h3>
+        <hr>
+      </div>
+      <div class="partnersUldiv flex">
+        <ul>
+          <li><img src="assets/Mozila_partners.svg" alt="Mozilla logo"></li>
+          <li><img src="assets/Google_partners.jpg" alt="Mozilla logo"></li>
+          <li><img src="assets/airbnb_partners.jpg" alt="Mozilla logo"></li>
+          <li><img src="assets/daumkakao_partners.jpg" alt="Mozilla logo"></li>
+          <li><img src="assets/naver_partners.jpg" alt="Mozilla logo"></li>
+        </ul>
+      </div>
+      
+    </section>
+    <footer class="footerDiv flex">
+      <div class="footerlogo flex">
+        <img src="assets/logo_Porabo_live.jpg" alt="Logo of the company">
+      </div>
+      <div class="addressAndCredit">
+        <address> 2015 Creative Commons Korea, Some Rights Reserved</address>
+        <p>Developed by <em>Nahid Raihan</em></p>
+        <p>Template credit <a href="https://www.behance.net/adagio07"><em>Cindy Shin</em></a></p>
       </div>
     </footer>
     <script src="script.js">
-
+      
     </script>
-
   </body>
 </html>

@@ -1,7 +1,7 @@
 <a name="readme-top"></a>
 <div align="center">
 
-  <h3><b>My Portfolio README guide</b></h3>
+  <h3><b>Project Guide</b></h3>
 
 </div>
 
@@ -31,17 +31,18 @@
 
 # 📖 Nahid-s_Portfolio <a name="about-project"></a>
 
-Nahid-s_Portfolio is a HTML and CSS porject to develop personal portfolio wiith some mandatory features.
+This project is an online training and teaching website. Which will help people to get training and elegible persone to have a platform to showcase theire skills and expertise as a trainer.
 
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
 
 <details>
-  <summary>Software</summary>
+  <summary>Software used</summary>
   <ul>
     <li><a href=" ">HTML</a></li>
     <li><a href=" ">CSS</a></li>
+    <li><a href=" ">JavaScript</a></li>
   </ul>
 </details>
 
@@ -49,9 +50,8 @@ Nahid-s_Portfolio is a HTML and CSS porject to develop personal portfolio wiith 
 
 ### Key Features <a name="key-features"></a>
 
-- Work Showcase
-- Personal Information
-- Contact information
+- Home Page
+- About page
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -59,10 +59,11 @@ Nahid-s_Portfolio is a HTML and CSS porject to develop personal portfolio wiith 
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-To see the live demo of the page please click <a href="https://nahid1911.github.io/Nahid-s_Portfolio/">here</a>:
+<!-- To see the live demo of the page please click <a href="https://nahid1911.github.io/Nahid-s_Portfolio/">here</a>: -->
+The Page is under consturctin
 
 
-Have a knowledge about the project please see the <a href="https://www.loom.com/share/cad0b76c62684be99ed5ad72c25bd3be">project walkthrough</a>
+<!-- Have a knowledge about the project please see the <a href="https://www.loom.com/share/cad0b76c62684be99ed5ad72c25bd3be">project walkthrough</a> -->
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -70,7 +71,7 @@ Have a knowledge about the project please see the <a href="https://www.loom.com/
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
-To get a local copy up and running, follow these steps.
+To get a local copy you can follow the following steps.
 
 ### Prerequisites
 
@@ -92,20 +93,25 @@ After cloning the project you can customize it replacing the personal informatio
 
 ### Run tests
 
-To run tests, run the following command:
+To check stylelint error in your css file run the following command in terminal:
 
 ```sh
   npx stylelint "**/*.{css,scss}"
 ```
+I recommend you to make the correction manually to increase your understanding but you can use auto correction to save time, please run the following command.
+```sh
+  npx stylelint "**/*.{css,scss}" --fix
+```
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- AUTHORS -->
 
 ## 👥 Authors <a name="authors"></a>
 
-Collaborators of this project is:
+I am the only collaborator of this project, my details are as follows:
 
-👤 Mohammad Nahid Raihan Sardar
+👤 **Mohammad Nahid Raihan Sardar**
 
 - GitHub: [@githubhandle](https://github.com/Nahid1911)
 - Twitter: [@twitterhandle](https://twitter.com/Nahid1911)
@@ -117,7 +123,7 @@ Collaborators of this project is:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] JavaScript
+- Blog post
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -125,7 +131,7 @@ Collaborators of this project is:
 
 ## 🤝 Contributing <a name="contributing"></a>
 
-Contributions, issues, and feature requests are welcome!
+Contributions, issues, and feature requests are welcome!, please feel free to raise an issue for any bug of typo mistake, and make the pull request for any feausre suggestion
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -141,7 +147,7 @@ If you like this project please show your support by giving stars.
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to thank Microverse for the inspiration to create this portfolio as a part of my learning journey.
+Original designer of the template is <a href = "https://www.behance.net/adagio07">Cindy Shin</a> .
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
