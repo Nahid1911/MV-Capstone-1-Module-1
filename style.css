@@ -15,10 +15,10 @@
     justify-content: center;
   }
 
-  a {
+  /* a {
     text-decoration: none;
     color: #fff;
-  }
+  } */
 
   .header {
     position: sticky;
@@ -312,6 +312,12 @@
     cursor: pointer;
   }
 
+  .no-decoration {
+    text-decoration: none;
+    color: #000;
+  }
+
+
   /* ---------------------Mobile Menu---------------------- */
 
   #mobileMenue {
@@ -341,6 +347,122 @@
 
   .displayNone {
     display: none;
+  }
+
+  #myModal a {
+    text-decoration: none;
+    color: #fff;
+  }
+
+ /* ----------------------------About Page Mobile-------------------------------- */
+
+  .abt-mainContainer {
+    background: url(assets/Background_1_mobile.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    flex-direction: column;
+  }
+
+  .abt-mainHeadingAndP {
+    background-color: rgba(252, 255, 255, 0.708);
+    padding: 0 5% 0 5%;
+    gap: 20px;
+    width: 100%;
+    flex-direction: column;
+  }
+
+  .abt-mainHeadingAndP .homeDiv {
+    display: none;
+  }
+
+  .abt-Containerh1 {
+    background-size: auto;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 20px;
+    color: orangered;
+    width: 100%;
+    text-align: center;
+  }
+
+  .abt-mainContainerP {
+    border: 2px solid white;
+    width: 100%;
+    background-color: #ffffff5b;
+  }
+
+  .abt-paraGraph {
+    color: rgb(97, 97, 97);
+    text-align: center;
+    font-size: 15px;
+    line-height: 20px;
+    padding: 0 5% 0 5%;
+  }
+
+  .abt-contactEmail {
+    color: rgb(97, 97, 97);
+    text-align: center;
+    font-size: small;
+    padding: 2% 4% 2% 4%;
+    line-height: 20px;
+  }
+
+  .abt-logoContainer {
+    flex-direction: column;
+    align-items: center;
+    padding: 3% 5% 3% 5%;
+    background-color: bisque;
+  }
+
+  .abt-logoTitle {
+    width: 80%;
+    border: 2px solid green;
+  }
+
+  .abt-logoHeading {
+    text-align: center;
+  }
+
+  .abt-logoImage {
+    width: 60%;
+    padding: 10px;
+    border: 2px solid white;
+    margin-top: 30px;
+  }
+
+  .abt-logoImage img {
+    height: 100px;
+    width: 100%;
+  }
+
+  .abt-hrDiv {
+    margin-top: 10px;
+    width: 100%;
+  }
+
+  .abt-deviderHr {
+    width: 100%;
+  }
+
+  .abt-deviderHr hr {
+    width: 100%;
+  }
+
+  .abt-pastEvents {
+    flex-direction: column;
+    background-color: bisque;
+  }
+
+  .abt-pastEventpic {
+    flex-direction: column;
+    gap: 50px;
+    padding: 2%  0 3% 0;
+  }
+
+  .abt-pastEventpic img {
+    width: 300px;
+    height: 200px;
   }
 }
 
@@ -380,8 +502,9 @@
     gap: 20px;
   }
 
-  .navBarUl .liAbout {
-    color: red;
+  .navBarUl li a {
+    text-decoration: none;
+    color: black;
   }
 
   .navBarUl .liCC_Campaign {
@@ -438,7 +561,11 @@
     font-size: 50px;
     color: transparent;
     -webkit-background-clip: text;
-    width: 60%;    
+    width: 100%;    
+  }
+
+  .mainHeading {
+    width: 80%;
   }
 
   .mainHeadingAndP {
@@ -638,7 +765,7 @@
     display: none;
   }
 
-  /* ----------------------------About Page-------------------------------- */
+  /* ----------------------------About Page Desktop-------------------------------- */
 
   .abt-mainContainer {
     background: url(assets/Background-1_Desktop.jpg);
@@ -648,15 +775,23 @@
     flex-direction: column;
   }
 
-  .mainHeadingAndP .homeDiv {
+  .abt-mainHeadingAndP {
+    background-color: rgba(252, 255, 255, 0.708);
+    padding: 0 20% 0 20%;
+    gap: 20px;
+    width: 100%;
+    flex-direction: column;
+  }
+
+  .abt-mainHeadingAndP .homeDiv {
     flex-direction: row;
     justify-content: end;
     width: 100%;
     font-size: small;
-    padding: 0 20% 0 20%;
+    padding: 1% 1% 1% 20%;
   }
 
-  .mainHeadingAndP .homeDiv img {
+  .abt-mainHeadingAndP .homeDiv img {
     height: 15px;
     width: 15px;
   }
@@ -667,16 +802,82 @@
     font-weight: 500;
     font-size: 20px;
     color: orangered;
-    width: 60%;
-    border: 2px solid green;
+    width: 80%;
     text-align: center;
-    padding: 2% 10% 2% 10%;
   }
 
   .abt-mainContainerP {
     border: 2px solid white;
-    width: 70%;
-    padding: 15px;
-    margin: 10px;
+    width: 100%;
+    background-color: #ffffff89;
+    /* margin: 0 20% 0 20%; */
   }
+
+  .abt-paraGraph {
+    color: rgb(97, 97, 97);
+    text-align: center;
+    font-size: 15px;
+    /* padding: 2% 4% 2% 4%; */
+    line-height: 20px;
+  }
+
+  .abt-contactEmail {
+    color: rgb(97, 97, 97);
+    text-align: center;
+    font-size: small;
+    padding: 2% 4% 2% 4%;
+    line-height: 20px;
+  }
+
+  .abt-logoContainer {
+    flex-direction: column;
+    padding: 3% 20% 3% 20%;
+    background-color: bisque;
+  }
+
+  .abt-logoImage {
+    width: 60%;
+    padding: 10px;
+    border: 2px solid white;
+    margin-top: 30px;
+  }
+
+  .abt-logoImage img {
+    height: 100px;
+    width: 100%;
+  }
+
+  .abt-hrDiv {
+    margin-top: 10px;
+    width: 100%;
+  }
+
+  .abt-deviderHr {
+    width: 100%;
+  }
+
+  .abt-deviderHr hr {
+    width: 100%;
+  }
+
+  .abt-pastEvents {
+    flex-direction: column;
+    background-color: bisque;
+  }
+
+  .abt-pastEventpic {
+    gap: 50px;
+    padding: 2% 0 3% 0;
+  }
+
+  .abt-pastEventpic img {
+    width: 300px;
+    height: 200px;
+  }
+
+  .paartners {
+    display: none;
+  }
+
+
 }
