@@ -8,7 +8,6 @@
 }
 
 @media (max-width: 768px) {
-
   .flex {
     display: flex;
     align-items: center;
@@ -19,7 +18,7 @@
     position: sticky;
     display: none;
   }
-  
+
   .mainContainer {
     flex-direction: column;
     background: url(assets/Background_1_mobile.jpg);
@@ -253,7 +252,7 @@
     display: flex;
   }
 
-  .partnersUldiv ul img { 
+  .partnersUldiv img {
     height: 40px;
     width: 40px;
     border-radius: 10px;
@@ -312,7 +311,6 @@
     color: #000;
   }
 
-
   /* ---------------------Mobile Menu---------------------- */
 
   #mobileMenue {
@@ -322,7 +320,6 @@
   }
 
   .mobileMenueDiv {
-    width: 100%;
     background-color: rgba(252, 255, 255, 0.708);
     width: 100%;
   }
@@ -349,7 +346,7 @@
     color: #fff;
   }
 
- /* ----------------------------About Page Mobile-------------------------------- */
+   /* ----------------------------About Page Mobile-------------------------------- */
 
   .abt-mainContainer {
     background: url(assets/Background_1_mobile.jpg);
@@ -470,8 +467,7 @@
 
 /* -----------------Desktop Version------------------ */
 
-@media (min-width:768px) {
-  
+@media (min-width: 768px) {
   .flex {
     display: flex;
     align-items: center;
@@ -479,12 +475,13 @@
   }
 
   .hambargerIcon {
-   display: none;
+    display: none;
   }
 
   .header {
     position: sticky;
   }
+
   .logo a {
     display: flex;
     text-decoration: none;
@@ -501,7 +498,6 @@
     justify-content: space-between;
     padding: 0 20% 0 20%;
     background-color: white;
-    /* height: 40px; */
     box-shadow: 0 2px 0 #958e8ea8;
   }
 
@@ -533,7 +529,7 @@
 
   .socialMediaUl {
     list-style: none;
-    align-items: right;
+    align-items: center;
     gap: 10px;
     color: #fff;
     margin-right: 10px;
@@ -543,7 +539,7 @@
     text-decoration: none;
   }
 
-  .socialMediaUl li img {
+  .socialMediaUl img {
     height: 20px;
     width: 20px;
   }
@@ -569,7 +565,7 @@
     font-size: 50px;
     color: transparent;
     -webkit-background-clip: text;
-    width: 100%;    
+    width: 100%;
   }
 
   .mainHeading {
@@ -747,7 +743,7 @@
     margin-right: 15px;
   }
 
-  .partnersUldiv ul img { 
+  .partnersUldiv img { 
     height: 80px;
     width: 80px;
     border-radius: 10px;
@@ -761,7 +757,7 @@
 
   .footerlogo img {
     max-width: 300px;
-    max-width: 200px;    
+    max-width: 200px;
   }
 
   .no-decoration {
@@ -774,12 +770,20 @@
   }
 
   /* ----------------------------About Page Desktop-------------------------------- */
-  .logo a {
+  .abt-logo a {
     display: flex;
     text-decoration: none;
     max-width: 300px;
     max-width: 200px;
   }
+
+  .abt-logo img {
+    display: flex;
+    text-decoration: none;
+    max-width: 300px;
+    max-width: 200px;
+  }
+
   .abt-mainContainer {
     background: url(assets/Background-1_Desktop.jpg);
     background-size: cover;
@@ -804,7 +808,7 @@
     padding: 1% 1% 1% 20%;
   }
 
-  .abt-mainHeadingAndP .homeDiv img {
+  .abt-mainHeadingAndP img {
     height: 15px;
     width: 15px;
   }
@@ -823,14 +827,12 @@
     border: 2px solid white;
     width: 100%;
     background-color: #ffffff89;
-    /* margin: 0 20% 0 20%; */
   }
 
   .abt-paraGraph {
     color: rgb(97, 97, 97);
     text-align: center;
     font-size: 15px;
-    /* padding: 2% 4% 2% 4%; */
     line-height: 20px;
   }
 
@@ -883,7 +885,7 @@
     padding: 2% 0 3% 0;
   }
 
-  .abt-pastEventpic img {
+  .abt-pastEventpic .confarence-1 img {
     width: 300px;
     height: 200px;
   }

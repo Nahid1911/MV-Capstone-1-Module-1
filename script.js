@@ -2,15 +2,16 @@ const modal = document.getElementById('myModal');
 const btn = document.getElementById('hambargerIcon');
 const span = document.getElementsByClassName('cancelBtn')[0];
 
-btn.onclick = disBlock;
-function disBlock () {
+function disBlock() {
   modal.style.display = 'block';
-};
+}
 
-span.onclick = disNone;
-function disNone () {
+btn.onclick = disBlock;
+
+function disNone() {
   modal.style.display = 'none';
-};
+}
+span.onclick = disNone;
 
 const speaker = document.getElementById('speakersContainer');
 speaker.innerHTML = `
