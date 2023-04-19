@@ -8,17 +8,19 @@
   padding: 0;
   box-sizing: border-box;
   font-family: 'Lato', sans-serif;
-  text-decoration: none;
-  list-style: none;
 }
 
-
-@media (max-width:768px){
+@media (max-width:768px) {
   
   .flex {
     display: flex;
     align-items: center;
     justify-content: center;
+  }
+
+  a {
+    text-decoration: none;
+    color: #fff;
   }
 
   .header {
@@ -47,10 +49,9 @@
   .helloText {
     color: rgb(220, 76, 44);
     font-size: 30px;
-    
   }
 
-  .mainContainerh1 h1{
+  .mainContainerh1 h1 {
     background-image: url(assets/h2_background_desktop.jpg);
     background-size: auto;
     text-transform: uppercase;
@@ -78,11 +79,11 @@
 
   .dateAndTime {
     padding: 10px;
-    
   }
 
   .paraGraph {
     color: rgb(97, 97, 97);
+    text-align: justify;
   }
 
   .location {
@@ -97,6 +98,13 @@
     padding: 3% 10% 3% 10%;
   }
 
+  .mainProgram button {
+    background-color: red;
+    color: #fff;
+    padding: 20px;
+    cursor: pointer;
+  }
+
   .mainProgram > p {
     font-size: 30px;
   }
@@ -109,10 +117,7 @@
   }
 
   .seeHoleProgram {
-    padding: 30px 10px 30px 10px;
-    text-transform: uppercase;
-    text-decoration: underline;
-    word-spacing: 2px;
+    display: none;
   }
 
   .cardsHolder {
@@ -129,13 +134,11 @@
     height: 100px;
     cursor: pointer;
     padding: 0 20px 0 20px;
-
   }
 
   .card:hover {
     cursor: pointer;
     border: 1px solid #fff;
-
   }
 
   .card .lecture {
@@ -162,14 +165,16 @@
 
   .featuredSpeakers {
     flex-direction: column;
-    padding: 3% 20% 10% 20%;
+    padding: 3% 5% 10% 5%;
     background-color: bisque;
   }
+
   .featureSpeakerh3 {
     display: flex;
     flex-direction: column;
     align-items: center;
   }
+
   .featureSpeakerh3 hr {
     display: flex;
     margin-top: 10px;
@@ -179,14 +184,19 @@
 
   .allSpeaker {
     display: grid;
+    justify-content: center;
     grid-template-columns: 100%;
     gap: 15px;
     margin-top: 20px;
+    width: 100%;
+  }
+
+  .hiddenSpeaker {
+    display: none;
   }
 
   .speaker {
     align-items: center;
-    /* margin: 20px 2px; */
   }
 
   .speaker img {
@@ -195,6 +205,23 @@
     margin-right: 10px;
     border: 10px solid rgba(250, 128, 114, 0.279);
     box-shadow: 0 3px 6px 0 blueviolet;
+  }
+
+  .displayMoreSpeaker {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid black;
+    padding: 10px;
+    gap: 15px;
+    width: 90%;
+    margin: 0 5% 0 5%;
+    cursor: pointer;
+  }
+
+  .displayMoreSpeaker img {
+    height: 15px;
+    width: 15px;
   }
 
   .otherProElement .currentPosition {
@@ -248,7 +275,46 @@
 
   .footerlogo img {
     max-width: 300px;
-    max-width: 200px;    
+    max-width: 200px;
+  }
+
+
+  /* ----------------------Modal--------------------------- */
+
+  .modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 50px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100vw; /* Full width */
+    height: 100vh; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+  }
+
+  .modal-content {
+    background-color: rgba(240, 240, 247, 0.845);
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+  }
+
+  #myModal li {
+    border: 1px solid green;
+    background-color: rgb(6, 75, 75);
+    padding: 10px 0 10px 5px;
+    color: #fff;
+    margin: 10px;
+    font-size: large;
+    text-decoration: unset;
+  }
+
+  .cancelBtn {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
   }
 
   /* ---------------------Mobile Menu---------------------- */
@@ -256,6 +322,7 @@
   #mobileMenue {
     display: flex;
     width: 100%;
+    position: fixed;
   }
 
   .mobileMenueDiv {
@@ -279,14 +346,13 @@
 
   .displayNone {
     display: none;
-
   }
 
-} 
+}
 
 /* -----------------Desktop Version------------------ */
 
-@media (min-width:768px){
+@media (min-width:768px) {
   
 
   .flex {
@@ -347,7 +413,6 @@
     gap: 10px;
     color: #fff;
     margin-right: 10px;
-  
   }
 
   .socialMediaUl li {
@@ -369,10 +434,9 @@
   .helloText {
     color: rgb(220, 76, 44);
     font-size: 30px;
-    
   }
 
-  .mainContainerh1 h1{
+  .mainContainerh1 h1 {
     background-image: url(assets/h2_background_desktop.jpg);
     background-size: auto;
     text-transform: uppercase;
@@ -419,6 +483,10 @@
     padding: 3% 10% 3% 10%;
   }
 
+  .mainProgram button {
+    display: none;
+  }
+
   .mainProgram > p {
     font-size: 30px;
   }
@@ -449,13 +517,11 @@
     width: 150px;
     height: 200px;
     cursor: pointer;
-
   }
 
   .card:hover {
     cursor: pointer;
     border: 1px solid #fff;
-
   }
 
   .card .lecture {
@@ -480,11 +546,13 @@
     padding: 3% 20% 10% 20%;
     background-color: bisque;
   }
+
   .featureSpeakerh3 {
     display: flex;
     flex-direction: column;
     align-items: center;
   }
+
   .featureSpeakerh3 hr {
     display: flex;
     margin-top: 10px;
@@ -498,6 +566,10 @@
     grid-template-rows: 33.33% 33.33% 33.33%;
     gap: 15px;
     margin-top: 20px;
+  }
+
+  .displayMoreSpeaker {
+    display: none;
   }
 
   .speaker {
@@ -515,7 +587,6 @@
   .otherProElement .currentPosition {
     font-size: xx-small;
     color: rgb(220, 76, 44);
-
   }
 
   .otherProElement .bio {
@@ -564,6 +635,58 @@
   .footerlogo img {
     max-width: 300px;
     max-width: 200px;    
+  }
+
+  .no-decoration {
+    text-decoration: none;
+    color: #000;
+  }
+
+  .modal {
+    display: none;
+  }
+
+
+  /* ----------------------------About Page-------------------------------- */
+
+  .abt-mainContainer {
+    background: url(assets/Background-1_Desktop.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    flex-direction: column;
+  }
+
+  .homeDiv {
+    flex-direction: row;
+    justify-content: end;
+    width: 100%;
+    font-size: small;
+    padding: 0 20% 0 20%;
+  }
+
+  .homeDiv img {
+    height: 15px;
+    width: 15px;
+  }
+
+  .abt-Containerh1 {
+    background-size: auto;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 20px;
+    color: orangered;
+    width: 60%;
+    border: 2px solid green;
+    text-align: center;
+    padding: 2% 10% 2% 10%;
+  }
+
+  .abt-mainContainerP {
+    border: 2px solid white;
+    width: 70%;
+    padding: 15px;
+    margin: 10px;
   }
 
 }
