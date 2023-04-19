@@ -1,7 +1,4 @@
-
-
 @import url('https://fonts.googleapis.com/css2?family=Domine&family=Lato:wght@900&display=swap');
-
 
 * {
   margin: 0;
@@ -60,7 +57,7 @@
     font-size: 50px;
     color: transparent;
     -webkit-background-clip: text;
-    width: 100%    
+    width: 100%;
   }
 
   .mainHeadingAndP {
@@ -227,7 +224,6 @@
   .otherProElement .currentPosition {
     font-size: xx-small;
     color: rgb(220, 76, 44);
-
   }
 
   .otherProElement .bio {
@@ -278,19 +274,18 @@
     max-width: 200px;
   }
 
-
   /* ----------------------Modal--------------------------- */
 
   .modal {
-    display: none; /* Hidden by default */
-    position: fixed; /* Stay in place */
-    z-index: 1; /* Sit on top */
-    padding-top: 50px; /* Location of the box */
+    display: none;
+    position: fixed;
+    z-index: 1;
+    padding-top: 50px;
     left: 0;
     top: 0;
-    width: 100vw; /* Full width */
-    height: 100vh; /* Full height */
-    overflow: auto; /* Enable scroll if needed */
+    width: 100vw;
+    height: 100vh;
+    overflow: auto;
   }
 
   .modal-content {
@@ -347,14 +342,12 @@
   .displayNone {
     display: none;
   }
-
 }
 
 /* -----------------Desktop Version------------------ */
 
 @media (min-width:768px) {
   
-
   .flex {
     display: flex;
     align-items: center;
@@ -464,7 +457,6 @@
 
   .dateAndTime {
     padding: 10px;
-    
   }
 
   .paraGraph {
@@ -646,7 +638,6 @@
     display: none;
   }
 
-
   /* ----------------------------About Page-------------------------------- */
 
   .abt-mainContainer {
@@ -657,7 +648,7 @@
     flex-direction: column;
   }
 
-  .homeDiv {
+  .mainHeadingAndP .homeDiv {
     flex-direction: row;
     justify-content: end;
     width: 100%;
@@ -665,7 +656,7 @@
     padding: 0 20% 0 20%;
   }
 
-  .homeDiv img {
+  .mainHeadingAndP .homeDiv img {
     height: 15px;
     width: 15px;
   }
@@ -688,5 +679,4 @@
     padding: 15px;
     margin: 10px;
   }
-
 }
