@@ -2,14 +2,15 @@ const modal = document.getElementById('myModal');
 const btn = document.getElementById('hambargerIcon');
 const span = document.getElementsByClassName('cancelBtn')[0];
 
-btn.onclick = function () {
+btn.onclick = disBlock;
+function disBlock () {
   modal.style.display = 'block';
 };
 
-span.onclick = function () {
+span.onclick = disNone;
+function disNone () {
   modal.style.display = 'none';
 };
-
 
 const speaker = document.getElementById('speakersContainer');
 speaker.innerHTML = `
@@ -89,4 +90,4 @@ speaker.innerHTML = `
           <img src="assets/SeeMoreSpeakerSign.svg" alt="" srcset="">
         </div>
       </div>
-`
+`;

@@ -485,6 +485,12 @@
   .header {
     position: sticky;
   }
+  .logo a {
+    display: flex;
+    text-decoration: none;
+    max-width: 300px;
+    max-width: 200px;
+  }
   
   .logo img {
     max-width: 300px;
@@ -768,7 +774,12 @@
   }
 
   /* ----------------------------About Page Desktop-------------------------------- */
-
+  .logo a {
+    display: flex;
+    text-decoration: none;
+    max-width: 300px;
+    max-width: 200px;
+  }
   .abt-mainContainer {
     background: url(assets/Background-1_Desktop.jpg);
     background-size: cover;
@@ -880,5 +891,4 @@
   .abt-paartners {
     display: none;
   }
-
 }
