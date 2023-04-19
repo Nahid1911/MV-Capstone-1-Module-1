@@ -7,18 +7,13 @@
   font-family: 'Lato', sans-serif;
 }
 
-@media (max-width:768px) {
-  
+@media (max-width: 768px) {
+
   .flex {
     display: flex;
     align-items: center;
     justify-content: center;
   }
-
-  /* a {
-    text-decoration: none;
-    color: #fff;
-  } */
 
   .header {
     position: sticky;
@@ -40,7 +35,7 @@
 
   .hambargerIcon img {
     padding: 10px 0 0 15px;
-    cursor: pointer;;
+    cursor: pointer;
   }
 
   .helloText {
@@ -417,7 +412,6 @@
 
   .abt-logoTitle {
     width: 80%;
-    border: 2px solid green;
   }
 
   .abt-logoHeading {
@@ -463,6 +457,14 @@
   .abt-pastEventpic img {
     width: 300px;
     height: 200px;
+  }
+
+  .abt-paartners {
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(22, 17, 17);
+    color: #fff;
+    padding: 3% 20% 5% 20%;
   }
 }
 
@@ -875,9 +877,8 @@
     height: 200px;
   }
 
-  .paartners {
+  .abt-paartners {
     display: none;
   }
-
 
 }
