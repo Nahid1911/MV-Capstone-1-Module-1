@@ -446,15 +446,15 @@
     padding: 2%  0 3% 0;
   }
 
-  .confarence-1 {
-    background-image: url(assets/Confarence-1.jpg);
+  .conference-1 {
+    background-image: url(assets/conference-1.jpg);
     background-size: contain;
     width: 300px;
     height: 150px;
   }
 
-  .confarence-2 {
-    background-image: url(assets/Confarence-2.jpg);
+  .conference-2 {
+    background-image: url(assets/conference-2.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     width: 300px;
@@ -835,8 +835,8 @@
   .footerDiv {
     background-color: #fff;
     color: #000;
-    justify-content: space-between;
-    gap: 10px;
+    justify-content: center;
+    gap: 30px;
     padding: 3% 10% 5% 10%;
     width: 100%;
   }
@@ -939,7 +939,7 @@
   .abt-logoImage {
     width: 60%;
     padding: 10px;
-    border: 2px solid white;
+    border: 2px solid rgb(205, 202, 202);
     margin-top: 30px;
   }
 
@@ -971,7 +971,7 @@
     padding: 2% 0 3% 0;
   }
 
-  .abt-pastEventpic .confarence-1 img {
+  .abt-pastEventpic .conference-1 img {
     width: 300px;
     height: 200px;
   }
@@ -984,15 +984,15 @@
     color: red;
   }
 
-  .confarence-1 {
-    background-image: url(assets/Confarence-1.jpg);
+  .conference-1 {
+    background-image: url(assets/conference-1.jpg);
     background-size: contain;
     width: 400px;
     height: 250px;
   }
 
-  .confarence-2 {
-    background-image: url(assets/Confarence-2.jpg);
+  .conference-2 {
+    background-image: url(assets/conference-2.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     width: 400px;
@@ -1018,9 +1018,18 @@
   .abt-footerDiv {
     background-color: #000;
     color: #fff;
-    justify-content: space-between;
-    gap: 10px;
-    padding: 3% 10% 5% 10%;
+    justify-content: center;
+    gap: 30px;
+    padding: 2% 10% 2% 10%;
     width: 100%;
+  }
+
+  .abt-footerlogo {
+    color: #fff;
+  }
+
+  .abt-footerlogo img {
+    width: 200px;
+    height: 100px;
   }
 }
