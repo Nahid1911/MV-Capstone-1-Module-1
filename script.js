@@ -22,7 +22,8 @@ speaker.innerHTML = `
       <div class="allSpeaker flex">
         <div class="speaker flex">
           <div class="profileImgDiv">
-            <img src="assets/profilepic.jpg" alt="speakerImage">
+            <img class="cheseTable" src="assets/chesse_background.png" alt="">
+            <img class ="portrait" src="assets/profilepic.jpg" alt="speakerImage">
           </div>
           <div class="otherProElement">
             <h3 class="name">Speaker-1</h3>
@@ -33,7 +34,8 @@ speaker.innerHTML = `
         </div>
         <div class="speaker flex">
           <div class="profileImgDiv">
-            <img src="assets/profilepic.jpg" alt="speakerImage">
+            <img class="cheseTable" src="assets/chesse_background.png" alt="">
+            <img class ="portrait" src="assets/profilepic.jpg" alt="speakerImage">
           </div>
           <div class="otherProElement">
             <h3 class="name">Speaker-2</h3>
@@ -44,10 +46,11 @@ speaker.innerHTML = `
         </div>
         <div class="speaker flex hiddenSpeaker">
           <div class="profileImgDiv">
-            <img src="assets/profilepic.jpg" alt="speakerImage">
+            <img class="cheseTable" src="assets/chesse_background.png" alt="">
+            <img class ="portrait" src="assets/profilepic.jpg" alt="speakerImage">
           </div>
           <div class="otherProElement">
-            <h3 class="name hiddenSpeaker">Speaker-3</h3>
+            <h3 class="name">Speaker-3</h3>
             <p class="currentPosition">Designation</p>
             <hr>
             <p class="bio">Past Experiance and Achivements</p>
@@ -55,10 +58,11 @@ speaker.innerHTML = `
         </div>
         <div class="speaker flex hiddenSpeaker">
           <div class="profileImgDiv">
-            <img src="assets/profilepic.jpg" alt="speakerImage">
+            <img class="cheseTable" src="assets/chesse_background.png" alt="">
+            <img class ="portrait" src="assets/profilepic.jpg" alt="speakerImage">
           </div>
           <div class="otherProElement">
-            <h3 class="name hiddenSpeaker">Speaker-4</h3>
+            <h3 class="name">Speaker-4</h3>
             <p class="currentPosition">Designation</p>
             <hr>
             <p class="bio">Past Experiance and Achivements</p>
@@ -66,10 +70,11 @@ speaker.innerHTML = `
         </div>
         <div class="speaker flex hiddenSpeaker">
           <div class="profileImgDiv">
-            <img src="assets/profilepic.jpg" alt="speakerImage">
+            <img class="cheseTable" src="assets/chesse_background.png" alt="">
+            <img class ="portrait" src="assets/profilepic.jpg" alt="speakerImage">
           </div>
           <div class="otherProElement">
-            <h3 class="name hiddenSpeaker">Speaker-5</h3>
+            <h3 class="name">Speaker-5</h3>
             <p class="currentPosition">Designation</p>
             <hr>
             <p class="bio">Past Experiance and Achivements</p>
@@ -77,7 +82,8 @@ speaker.innerHTML = `
         </div>
         <div class="speaker flex  hiddenSpeaker">
           <div class="profileImgDiv">
-            <img src="assets/profilepic.jpg" alt="speakerImage">
+            <img class="cheseTable" src="assets/chesse_background.png" alt="">
+            <img class ="portrait" src="assets/profilepic.jpg" alt="speakerImage">
           </div>
           <div class="otherProElement">
             <h3 class="name">Speaker-6</h3>
@@ -86,9 +92,19 @@ speaker.innerHTML = `
             <p class="bio">Past Experiance and Achivements</p>
           </div>
         </div>
-        <div class="displayMoreSpeaker">
+        <div id="showMore" class="displayMoreSpeaker">
           <P>MORE</P>
           <img src="assets/SeeMoreSpeakerSign.svg" alt="" srcset="">
         </div>
       </div>
 `;
+
+// let loadMoreSpeaker = document.getElementById('showMore');
+
+// loadMoreSpeaker.onclick = moreSpeaker;
+// function moreSpeaker() {
+// let target = document.getElementsByClassName('hiddenSpeaker');
+
+// console.log(target)
+
+// }
