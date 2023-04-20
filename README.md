@@ -62,7 +62,7 @@ This project is an online training and teaching website. Which will help people 
 To have a look on the project please visit the <a href="https://nahid1911.github.io/MV-Capstone-1-Module-1/">link</a>
 
 
-<!-- Have a knowledge about the project please see the <a href="https://www.loom.com/share/cad0b76c62684be99ed5ad72c25bd3be">project walkthrough</a> -->
+If you have less time then you can see the frief introduction of the project by clicking <a href="https://www.loom.com/share/d5d5c4548bc5479aa11aa401e4d87466">HERE</a>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
