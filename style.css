@@ -39,12 +39,6 @@
     cursor: pointer;
   }
 
-  .hambargerIcon img:hover {
-    background-color: #eeeaea;
-    border: #cadaf3;
-    border-radius: 10px;
-  }
-
   .helloText {
     color: rgb(220, 76, 44);
     font-size: 30px;
@@ -215,7 +209,6 @@
     margin: 12px 0 0 12px;
     position: relative;
   }
-
 
   .displayMoreSpeaker {
     display: flex;
@@ -491,7 +484,6 @@
     color: #fff;
     padding: 3% 10% 5% 10%;
     width: 100%;
-
   }
 
   .abt-partnersUldiv ul {
@@ -524,7 +516,6 @@
     height: 50px;
   }
 
-  
   .abt-footerDiv {
     background-color: #fff;
     color: #8f8a8a;
@@ -538,9 +529,16 @@
     font-size: small;
   }
 
+  /* -------------------------Mobile-version-hover---------------------------- */
+
+  .hambargerIcon img:hover {
+    background-color: #eeeaea;
+    border: #cadaf3;
+    border-radius: 10px;
+  }
 }
 
-  /* -----------------Desktop Version------------------ */
+/* -----------------Desktop Version------------------ */
 
 @media (min-width: 768px) {
   .flex {
@@ -779,7 +777,6 @@
     width: 50px;
     height: 50px;
     position: absolute;
-    
   }
 
   .portrait {
