@@ -34,6 +34,8 @@
 
   .hambargerIcon img {
     margin: 10px 0 0 15px;
+    width: 30px;
+    height: 30px;
     cursor: pointer;
   }
 
@@ -118,29 +120,32 @@
     display: none;
   }
 
+  /* ----------------------Card-Design-Mobile-version------------------------ */
+
   .cardsHolder {
     flex-direction: column;
     gap: 10px;
     align-items: center;
-    /* margin: 5px 0 5px 0; */
   }
 
   .card {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
     background-color: #958e8e5f;
-    width: 100%;
     height: 100px;
     cursor: pointer;
+    margin: 10px;
+    padding: 10px;
   }
 
   .mainProImage {
-    width: 20%;
-    border: 2px solid rgb(0, 128, 79);
-    /* padding: 10px; */
+    grid-column: 1;
   }
 
   .mainProImage img {
-    width: 30px;
-    height: 30px;
+    width: 40px;
+    height: 40px;
   }
 
   .card:hover {
@@ -148,30 +153,17 @@
     border: 1px solid #fff;
   }
 
-  .cardHeading .lecture {
-    color: orangered;
-    border: 2px solid rgb(0, 19, 128);
-    /* text-align: left; */
-  }
-
   .cardHeading {
-    justify-content: center;
-    width: 20%;
-    /* padding-right: 10px; */
-    /* word-wrap: break-word; */
-    border: 2px solid green;
+    grid-column: 2;
+    color: orangered;
+    font-size: small;
   }
 
   .cardDetails {
-    width: 58%;
-    border: 2px solid rgb(0, 128, 79);
-    /* padding: 10px; */
-  }
-
-  .cardDetails p {
+    grid-column: 3 / span 3;
     font-size: small;
     text-align: left;
-    border: 2px solid rgb(0, 128, 79);
+    padding-left: 5px;
   }
 
   .featuredSpeakers {
@@ -263,47 +255,11 @@
   }
 
   .paartners {
-    flex-direction: column;
-    align-items: center;
-    background-color: rgb(22, 17, 17);
-    color: #fff;
-    padding: 3% 20% 5% 20%;
-  }
-
-  .textAndHr {
-    flex-direction: column;
-  }
-
-  .partnersUldiv {
-    flex-direction: row;
-    justify-content: center;
-    width: 100%;
-  }
-
-  .partnersUldiv ul {
-    list-style: none;
-    display: flex;
-  }
-
-  .partnersUldiv ul li {
-    margin-right: 15px;
-    display: flex;
-  }
-
-  .partnersUldiv img {
-    height: 40px;
-    width: 40px;
-    border-radius: 10px;
+    display: none;
   }
 
   .footerDiv {
-    justify-content: space-between;
-    padding: 3% 5% 5% 5%;
-  }
-
-  .footerlogo img {
-    max-width: 300px;
-    max-width: 200px;
+    display: none;
   }
 
   /* ----------------------Modal--------------------------- */
@@ -450,7 +406,7 @@
     flex-direction: column;
     align-items: center;
     padding: 3% 5% 3% 5%;
-    background-color: rgb(244, 241, 241);
+    background-color: #fff;
   }
 
   .abt-logoTitle {
@@ -488,30 +444,103 @@
 
   .abt-pastEvents {
     flex-direction: column;
-    background-color: rgb(244, 241, 241);
+    background-color: #fff;
   }
 
   .abt-pastEventpic {
     flex-direction: column;
-    gap: 50px;
+    gap: 10px;
     padding: 2%  0 3% 0;
   }
 
-  .abt-pastEventpic img {
+  .confarence-1 {
+    background-image: url(assets/Confarence-1.jpg);
+    background-size: contain;
     width: 300px;
-    height: 200px;
+    height: 150px;
+  }
+
+  .confarence-2 {
+    background-image: url(assets/Confarence-2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 300px;
+    height: 150px;
+  }
+
+  .abt-galleryCurtain {
+    background-color: #c61010be;
+    position: relative;
+    display: flex;
+    color: white;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .abt-galleryCurtain:hover {
+    background-color: transparent;
+    color: transparent;
   }
 
   .abt-paartners {
     flex-direction: column;
     align-items: center;
-    background-color: rgb(22, 17, 17);
+    background-color: rgb(74, 72, 72);
     color: #fff;
-    padding: 3% 20% 5% 20%;
+    padding: 3% 10% 5% 10%;
+    width: 100%;
+
   }
+
+  .abt-partnersUldiv ul {
+    list-style: none;
+  }
+
+  .abt-partnersUldiv img {
+    height: 80px;
+    width: 80px;
+    border-radius: 10px;
+  }
+
+  .abt-socialMedia {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+    padding: 10px;
+  }
+
+  .abt-footerlogo {
+    color: #fff;
+    justify-content: space-between;
+    gap: 10px;
+    padding: 3% 5% 5% 5%;
+    width: 100%;
+  }
+
+  .abt-footerlogo img {
+    width: 80px;
+    height: 50px;
+  }
+
+  
+  .abt-footerDiv {
+    background-color: #fff;
+    color: #8f8a8a;
+    justify-content: space-between;
+    gap: 10px;
+    padding: 3% 5% 5% 5%;
+    width: 100%;
+  }
+
+  .abt-addressAndCredit {
+    font-size: small;
+  }
+
 }
 
-/* -----------------Desktop Version------------------ */
+  /* -----------------Desktop Version------------------ */
 
 @media (min-width: 768px) {
   .flex {
@@ -675,6 +704,7 @@
   }
 
   .cardsHolder {
+    display: flex;
     gap: 10px;
     align-items: center;
     margin: 15px 0 15px 0;
@@ -806,8 +836,11 @@
   }
 
   .footerDiv {
+    background-color: #fff;
+    color: #000;
     justify-content: space-between;
-    padding: 3% 20% 5% 20%;
+    gap: 10px;
+    padding: 3% 10% 5% 10%;
     width: 100%;
   }
 
@@ -903,7 +936,7 @@
   .abt-logoContainer {
     flex-direction: column;
     padding: 3% 20% 3% 20%;
-    background-color: rgb(244, 241, 241);
+    background-color: #fff;
   }
 
   .abt-logoImage {
@@ -933,13 +966,12 @@
 
   .abt-pastEvents {
     flex-direction: column;
-    background-color: rgb(244, 241, 241);
+    background-color: #fff;
   }
 
   .abt-pastEventpic {
-    gap: 50px;
+    gap: 20px;
     padding: 2% 0 3% 0;
-    /* border: 5px solid red; */
   }
 
   .abt-pastEventpic .confarence-1 img {
@@ -960,15 +992,14 @@
     background-size: contain;
     width: 400px;
     height: 250px;
-    /* border: 5px solid green; */
   }
 
   .confarence-2 {
     background-image: url(assets/Confarence-2.jpg);
-    background-size: contain;
+    background-size: cover;
+    background-repeat: no-repeat;
     width: 400px;
     height: 250px;
-    /* border: 5px solid green; */
   }
 
   .abt-galleryCurtain {
@@ -978,7 +1009,6 @@
     color: white;
     width: 100%;
     height: 100%;
-    /* border: 5px solid rgb(79, 80, 7); */
     justify-content: center;
     align-items: center;
   }
@@ -986,5 +1016,14 @@
   .abt-galleryCurtain:hover {
     background-color: transparent;
     color: transparent;
+  }
+
+  .abt-footerDiv {
+    background-color: #000;
+    color: #fff;
+    justify-content: space-between;
+    gap: 10px;
+    padding: 3% 10% 5% 10%;
+    width: 100%;
   }
 }
