@@ -99,12 +99,12 @@ speaker.innerHTML = `
       </div>
 `;
 
-// let loadMoreSpeaker = document.getElementById('showMore');
+let loadMoreSpeaker = document.getElementById('showMore');
 
-// loadMoreSpeaker.onclick = moreSpeaker;
-// function moreSpeaker() {
-// let target = document.getElementsByClassName('hiddenSpeaker');
-
-// console.log(target)
-
-// }
+loadMoreSpeaker.onclick = moreSpeaker;
+function moreSpeaker() {
+let target = document.querySelectorAll('.hiddenSpeaker');
+for(let i=0; i<target.length; i++){
+  target[i].classList.remove('hiddenSpeaker')
+}
+}
