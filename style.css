@@ -447,14 +447,14 @@
   }
 
   .conference-1 {
-    background-image: url(assets/conference-1.jpg);
+    background-image: url(assets/Con_v2-1.png);
     background-size: contain;
     width: 300px;
     height: 150px;
   }
 
   .conference-2 {
-    background-image: url(assets/conference-2.jpg);
+    background-image: url(assets/Conference-2.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     width: 300px;
@@ -462,7 +462,7 @@
   }
 
   .abt-galleryCurtain {
-    background-color: #c61010be;
+    background-color: #c6101077;
     position: relative;
     display: flex;
     color: white;
@@ -985,14 +985,14 @@
   }
 
   .conference-1 {
-    background-image: url(assets/conference-1.jpg);
+    background-image: url(assets/Con_v2-1.png);
     background-size: contain;
     width: 400px;
     height: 250px;
   }
 
   .conference-2 {
-    background-image: url(assets/conference-2.jpg);
+    background-image: url(assets/Con_v2-2.png);
     background-size: cover;
     background-repeat: no-repeat;
     width: 400px;
@@ -1000,7 +1000,7 @@
   }
 
   .abt-galleryCurtain {
-    background-color: #c61010be;
+    background-color: #c6101075;
     position: relative;
     display: flex;
     color: white;
